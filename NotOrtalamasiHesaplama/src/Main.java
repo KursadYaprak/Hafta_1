@@ -31,8 +31,8 @@ public class Main {
 
         boolean gecme = sonuc >= 60;
 
-        String kosul = gecme ? "Sınıfı Geçtiniz." : "Sınıfta Kaldınız.";
+        String cikti = gecme ? "Sınıfı Geçtiniz." : "Sınıfta Kaldınız.";
 
-        System.out.print(kosul);
+        System.out.print(cikti);
     }
 }
