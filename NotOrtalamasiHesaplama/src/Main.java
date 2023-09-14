@@ -29,11 +29,10 @@ public class Main {
         double sonuc = toplam / 6;
         System.out.println("Not Ortalamanız : " + sonuc);
 
-        if (sonuc >= 60) {
-            System.out.print("Sınıfı Geçtiniz.");
-        }
-        else {
-            System.out.print("Sınıfta Kaldınız.");
-        }
+        boolean gecme = sonuc >= 60;
+
+        String kosul = gecme ? "Sınıfı Geçtiniz." : "Sınıfta Kaldınız.";
+
+        System.out.print(kosul);
     }
 }
