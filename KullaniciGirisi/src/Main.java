@@ -18,13 +18,19 @@ public class Main {
             System.out.println("Giriş Yaptınız.");
         }
         else {
-            System.out.print("Şifreniz Yanlış !\nŞifrenizi Sıfırlamak İstermisiniz ?\nEvet - 1\nHayır - 2\nSeçiminiz ? :");
+            System.out.print("Şifreniz Yanlış !\nŞifrenizi Sıfırlamak İstermisiniz ?\nEvet - 1\nHayır - 2\nSeçiminiz ? : ");
             option = inp.nextInt();
 
             if (option == 1) {
                 System.out.print("Yeni Şifrenizi Giriniz : ");
                 newPass = inp.nextLine();
-                System.out.println("Yeni Şifreniz " + newPass + " Olarak Belirlendi !");
+
+                if (newPass == passWord) {
+                    System.out.println("Şifre Oluşturulamadı, Lütfen Başka Bir Şifre Giriniz !");
+                }
+                else {
+                    System.out.println("Şifre Oluşturuldu.");
+                }
             }
             else if (option == 2) {
                 System.out.println("Yeniden Giriş Yapmayı Deneyebilirsiniz.");
