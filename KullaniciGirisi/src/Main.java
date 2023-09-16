@@ -23,9 +23,10 @@ public class Main {
 
             if (option == 1) {
                 System.out.print("Yeni Şifrenizi Giriniz : ");
+                inp.nextLine();
                 newPass = inp.nextLine();
 
-                if (newPass == passWord) {
+                if (newPass.equals("patikaplus")) {
                     System.out.println("Şifre Oluşturulamadı, Lütfen Başka Bir Şifre Giriniz !");
                 }
                 else {
