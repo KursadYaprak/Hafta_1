@@ -1,0 +1,1 @@
+Bu program bir hesap makinesi programıdır. Size yapmak istediğiniz temel matematik işleminde yardımcı olacaktır
