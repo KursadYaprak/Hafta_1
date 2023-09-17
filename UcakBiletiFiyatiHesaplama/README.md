@@ -1,0 +1,1 @@
+Kullanıcıdan gidiceği mesafeyi km cinsinden alıp, yaşını ve yolculuğunun tek yönmü yoksa gidiş dönüşmü olduğu değerlerini isteyen, son olarak bu değerlere göre uygun indirimleri uygulayıp toplam ödeyeceği miktarı TL cinsinden veren program.
